@@ -4,7 +4,7 @@ function calculo(e) {
   var val = document.getElementById('valor').value;
 
   if(val <= 0 || val == ""){
-    navigator.notification.alert('valor não aceito, multiplicação entre numeros negativos é divisão', null, '!!Aviso!!', 'OKAY');
+    navigator.notification.alert('valor não aceito, multiplicação entre numeros negativos é divisão', null, 'Avisado', 'OK');
   }
   else{
     document.getElementById('creator').innerHTML = '';
